@@ -17,6 +17,8 @@ window.addEventListener('deviceorientation', function(event) {
 
     if (alpha!=null || beta!=null || gamma!=null) {
         dataContainerOrientation.innerHTML = 'alpha: ' + alpha + '<br/>beta: ' + beta + '<br />gamma: ' + gamma;
+    } else {
+        dataContainerOrientation.innerHTML = 'No device orientation data'
     }
 }, false);
 
