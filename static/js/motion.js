@@ -21,9 +21,9 @@ function setBoardDims() {
     var board = document.getElementById('board');
     var square_side = null;
     if (window.innerHeight < window.innerWidth) {
-        square_side = window.innerHeight - 20;
+        square_side = window.innerHeight - 50;
     } else {
-        square_side = window.innerWidth - 20;
+        square_side = window.innerWidth - 50;
     }
 
     board.style.height = square_side + 'px';
